@@ -1,0 +1,8 @@
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+gem "value_object", path: "../value_object", require: "value_object"
+
+# Specify your gem's dependencies in money.gemspec
+gemspec
